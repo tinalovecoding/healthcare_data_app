@@ -157,7 +157,7 @@ const App = () => {
             </Col>
             <Col lg={7} >
               <h4>{`Why people get ${selectedDisease}? - A treemap explanation`}</h4>
-               <TreeMap margin={margin} svg_width={WIDTH} svg_height={HEIGHT} tree={tree} selectedCell={selectedCell} setSelectedCell={setSelectedCell}/>
+               <TreeMap margin={margin} svg_width={WIDTH} svg_height={HEIGHT} tree={tree} selectedCell={selectedCell} setSelectedCell={setSelectedCell} attributes={attributes}/>
             </Col>
         </Row>
         <Row className={"justify-content-md-left"}>
